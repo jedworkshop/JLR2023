@@ -1,0 +1,29 @@
+{
+  "name": "jed2023",
+  "version": "1.0.0",
+  "description": "NLP2023 Workshop on Japanese Evaluation Dataset",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedworkshop/jed2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedworkshop/jed2023/issues"
+  },
+  "homepage": "https://github.com/jedworkshop/jed2023",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "modern-normalize": "^1.1.0"
+  },
+  "dependencies": {
+    "markdown-it-anchor": "^8.4.1"
+  }
+}
