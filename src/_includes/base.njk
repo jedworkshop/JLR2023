@@ -11,28 +11,28 @@
     {%- endif -%}
     <link rel="icon" href="{{ '/img/icon.svg' | url }}" type="image/svg+xml">
 
-    <title>{{ title }} | NLP2023 Workshop on Japanese Evaluation Dataset</title>
+    <title>{{ title }} | NLP2023 Workshop on Japanese Language Resources</title>
 
     <meta property="og:title" content="{{ title }}" />
-    <meta property="og:site_name" content="Japanese Evaluation Dataset Workshop" />
+    <meta property="og:site_name" content="Japanese Language Resources Workshop" />
     <meta property="og:description" content="{{ description }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://jedworkshop.github.io/jed2023/img/icon.png">
+    <meta property="og:image" content="https://jedworkshop.github.io/JLR2023/img/icon.png">
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="600" />
     <meta property="og:image:height" content="600" />
-    <meta property="og:image:alt" content="JED" />
+    <meta property="og:image:alt" content="JLR" />
     <meta name="twitter:card" content="summary" />
 </head>
 <body>
-    <header><a href="{{ '/' | url }}">NLP2023 Workshop on Japanese Evaluation Dataset (JED2023)</a></header>
+    <header><a href="{{ '/' | url }}">NLP2023 Workshop on Japanese Language Resources (JLR2023)</a></header>
     <main>
         <div class="subheading">
             {{ description }}
         </div>
         {{ content | safe }}
     </main>
-    <footer><a href="https://github.com/jedworkshop/">Copyright &copy; Japanese Evaluation Dataset Workshop. All rights reserved.</a></footer>
+    <footer><a href="https://github.com/jedworkshop/">Copyright &copy; Japanese Language Resource Workshop. All rights reserved.</a></footer>
     {%- if jsfile -%}
         <script src="{{ ('/js/' + jsfile) | url }}"></script>
     {%- endif -%}

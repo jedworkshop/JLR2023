@@ -1,8 +1,8 @@
-# JED2023
+# JLR2023
 
-https://jedworkshop.github.io/jed2023
+https://jedworkshop.github.io/JLR2023
 
-Source of the "NLP2023 Workshop on Japanese Evaluation Dataset" website.
+Source of the "NLP2023 Workshop on Japanese Language Resources" website.
 
 ## How to edit
 
@@ -15,7 +15,7 @@ Source of the "NLP2023 Workshop on Japanese Evaluation Dataset" website.
   - => Static files created under `docs/`
 - Publish  
   - Push to the `main` branch of this repository
-  - => Files under `docs/` served as https://jedworkshop.github.io/jed2023 by GitHub Pages
+  - => Files under `docs/` served as https://jedworkshop.github.io/JLR2023 by GitHub Pages
 
 
 ## Dependencies

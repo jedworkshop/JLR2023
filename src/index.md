@@ -104,4 +104,4 @@ NLP2023の参加登録期間は，事前登録が2023/01/10〜02/13，直前登�
 - 柴田知秀 <small>ヤフー株式会社</small>
 - 松田寛 <small>株式会社リクルート Megagon Labs</small>
 
-問い合わせ先 jed2023 (at) googlegroups.com
+問い合わせ先 jlr2023 (at) googlegroups.com
