@@ -6,10 +6,10 @@ description: "言語処理学会第29回年次大会 併設ワークショップ
 
 # 日本語言語資源の構築と利用性の向上
 <table border="0”><tr>
-<td><img width="100" height="100" src="./img/icon.png"></td>
+<td><img width="100" height="100" src="https://jedworkshop.github.io/JLR2023/img/icon.png"></td>
 <td>
-[言語処理学会第29回年次大会（NLP2023）](https://www.anlp.jp/nlp2023/) 併設ワークショップ  
-日時：2023年3月17日(金) 9:30頃〜夕方(予定)  
+<a href="https://www.anlp.jp/nlp2023/">言語処理学会第29回年次大会（NLP2023）</a> 併設ワークショップ<br/>
+日時：2023年3月17日(金) 9:30頃〜夕方(予定)<br/>
 会場：沖縄コンベンションセンター＋オンライン中継(Zoom)のハイブリッド開催
 </td>
 </tr></table>
