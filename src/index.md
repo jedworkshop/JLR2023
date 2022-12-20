@@ -86,7 +86,7 @@ description: "言語処理学会第29回年次大会 併設ワークショップ
 - 2023年3月13日(月)
 
 ### 発表申し込みフォーム
-[JLR2023の発表申し込みフォーム](https://forms.gle/cXi77QnjCkYpZSEC6) (Google Accountが必要です)
+[JLR2023の発表申し込みフォーム](https://forms.gle/cXi77QnjCkYpZSEC6)
 
 ## 参加申し込み
 本ワークショップは言語処理学会第29回年次大会(NLP2023)の併設ワークショップとして開催されます．
