@@ -1,0 +1,95 @@
+---
+title: "JLR2023 プログラム"
+layout: base.njk
+cssfile: program.css
+jsfile: collapsible.js
+description: "言語処理学会第29回年次大会 併設ワークショップ JLR2023 - プログラム"
+---
+
+<h1>JLR2023 プログラム</h1>
+
+<p>2023年3月17日(金) 9:30〜18:00, 沖縄コンベンションセンター＋オンライン中継(Zoom)のハイブリッド開催</p>
+
+<div class="twitter_info">
+<div class="accoutn">公式アカウント<a href="https://twitter.com/jedws" target="_blank" rel="noreferrer">@jedws</a></div>
+</div>
+
+<table id="program_table">
+  <tbody>
+    <tr>
+      <td class="program_time">9:30-9:35</td>
+      <td>オープニング</td>
+    </tr>
+    <tr>
+      <td class="program_time">9:35-10:30</td>
+      <td><a href="#日本語データセットの構築(1)">日本語データセットの構築(1) [一般発表2件]</a></td>
+    </tr>
+    <tr>
+      <td class="program_time">10:40-11:35</td>
+      <td><a href="#日本語データセットの構築(2)">日本語データセットの構築(2) [一般発表2件・LT1件]</a></td>
+    </tr>
+    <tr>
+      <td class="program_time">11:45-13:00</td>
+      <td><a href="#多言語・多分野の言語資源の構築">多言語・多分野の言語資源の構築 [一般発表3件・LT1件]</a></td>
+    </tr>
+    <tr>
+      <td class="program_time">13:00-14:20</td>
+      <td>昼休憩</td>
+    </tr>
+    <tr>
+      <td class="program_time">14:20-15:20</td>
+      <td><a href="#招待講演">招待講演: (山田育矢先生)</a></td>
+    </tr>
+    <tr>
+      <td class="program_time">15:30-17:00</td>
+      <td><a href="#事前学習モデルの構築と利用">事前学習モデルの構築と利用 [一般発表3件・LT1件]</a></td>
+    </tr>
+    <tr>
+      <td class="program_time">17:10-17:45</td>
+      <td><a href="#パネル(総合討論)・クロージング">パネル(総合討論)・クロージング</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<div class="program_legend">
+  <div>
+    <div class="icons">🎤 一般発表 &nbsp; ⚡ ライトニングトーク &nbsp; 💬 ディスカッション</div>
+    <div class="caveat">(発表時間は当日の進行状況により前後することがあります)</div>
+  </div>
+  <div>
+    <div class="btn_abstract_all" data-target=".abstract" data-action="open">全ての概要を開く</div>
+  </div>
+</div>
+
+
+{% set session_data = session_1 %}
+{% include "session.njk" %}
+
+
+{% set session_data = session_2 %}
+{% include "session.njk" %}
+
+{% set session_data = session_3 %}
+{% include "session.njk" %}
+
+<div class="session" id="招待講演">
+  <h2>招待講演<br/><small>14:20-15:20</small> &nbsp; <small>座長: 浅原正幸 (国語研)</small></h2>
+  <div id="keynote">
+    <div id="keynote_speaker">講演者: 山田育矢 先生<small>（<a href="https://www.ousia.jp/ja/">株式会社Studio Ousia</a>, Co-founder, Chief Scientist）</small></div>
+    <!--
+    <div class="keynote_headning">概要</div>
+    <p>日本語データセットの構築・利用・公開を適法に行うためには，法令上の制限及び契約・ライセンスの問題をクリアにする必要があります．前者については著作権法と個人情報保護法制が主として問題となり，後者については当該データセットに付されているライセンスの解釈の仕方，あるいはご自身が作成されたデータセットを公開する際にどのような条件で公開すべきかが問題となります．本講演においては，それらの問題の全体像についてご説明すると共に，よく問題となるケースについてもできるだけ具体的に説明をいたします．日本語データセットの構築と利用性の向上の一助になればと思います．</p>
+    <div class="keynote_headning">略歴</div>
+    <p>専門分野はスタートアップ法務及びデータ・AI法務．現在，様々なジャンル（医療・製造業・プラットフォーム型等）のAIスタートアップを，顧問弁護士として多数サポートしている．経済産業省「AI・データ契約ガイドライン」検討会検討委員（～2018.3）．日本ディープラーニング協会（JDLA）有識者委員（2020.5～）．「第2回 IP BASE AWARD」知財専門家部門グランプリを受賞（2021）．</p>
+    -->
+  </div>
+</div>
+
+{% set session_data = session_4 %}
+{% include "session.njk" %}
+
+{% set session_data = session_5 %}
+{% include "session.njk" %}
+
+<p><a href="../">トップに戻る</a><p>

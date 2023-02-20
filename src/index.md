@@ -1,18 +1,44 @@
 ---
-title: "日本語言語資源の構築と利用性の向上"
+title: "日本語言語資源の構築と利用性の向上 (JLR2023)"
 layout: base.njk
-description: "言語処理学会第29回年次大会 併設ワークショップ"
+description: "言語処理学会第29回年次大会 併設ワークショップ JLR2023"
 ---
 
-# 日本語言語資源の構築と利用性の向上
-<img src="https://jedworkshop.github.io/JLR2023/img/icon.png" width="100">  
+<table><tr><td>
+<h1>日本語言語資源の構築と利用性の向上</h1>
+<a href="https://www.anlp.jp/nlp2023/">言語処理学会第29回年次大会（NLP2023）</a> 併設ワークショップ
 
-[言語処理学会第29回年次大会（NLP2023）](https://www.anlp.jp/nlp2023/) 併設ワークショップ  
-日時：2023年3月17日(金) 9:30頃〜夕方(予定)  
-会場：沖縄コンベンションセンター＋オンライン中継(Zoom)のハイブリッド開催
+日時：2023年3月17日(金) 9:30〜18:00  
+</td><td style="vertical-align:top;">
+  <img src="https://jedworkshop.github.io/JLR2023/img/icon.png" style="width:120px;">  
+</td>
+</tr><tr><td colspan="2">
+会場：沖縄コンベンションセンター＋オンライン中継(Zoom)のハイブリッド開催  
+
+共催：株式会社 Studio Ousia<br/>
+　　　国立国語研究所共同研究プロジェクト「実証的な理論・対照言語学の推進」<br/>
+　　　科学研究費補助金・基盤研究(A)「計算知と人知の融合による汎用言語理解基盤の構築」
+</td></tr></table>
+
+<div id="sponsors">
+  <div class="sponsor-item">
+    <a href="https://www.ousia.jp/ja/" target="_blank" rel="noreferrer">
+      <div class="logo"><img src="img/cosponsors/studio_ousia_logo.png" alt="株式会社Studio Ousia"></div>
+    </a>
+  </div>
+  <div class="sponsor-item">
+    <a href="https://www.ninjal.ac.jp/" target="_blank" rel="noreferrer">
+      <div class="logo"><img src="img/cosponsors/ninjal_logo.png" alt="国立国語研究所"></div>
+    </a>
+  </div>
+</div>
+
+<div class="twitter_info">
+  <div class="accoutn">Twitter公式アカウント<a href="https://twitter.com/jedws" target="_blank" rel="noreferrer">@jedws</a></div>
+</div>
 
 ## What's new
-2022/12/21 一般発表・ライトニングトークの申込受付を開始しました．
+2023/02/21 ワークショッププログラムを公開しました．
 
 ## 趣旨
 自然言語処理における各種タスクのモデルを訓練、評価、分析するためには、注釈付きコーパスや事前学習済みモデルなどの言語資源が必要不可欠である。
@@ -22,12 +48,75 @@ description: "言語処理学会第29回年次大会 併設ワークショップ
 本ワークショップでは、日本語における言語資源の構築手法そのものに加えて、言語資源の公開方式、利用性を高めるための著作権・ライセンス設定、タスクの複合化など、普及および応用を容易にするための研究について集
 中的に議論する。これによって、日本語言語資源の公開の流れを加速し、日本語自然言語処理のさらなる発展および生産性向上につなげていきたい。
 
+## 招待講演
+
+<div id="keynote">
+  <div id="keynote_speaker">講演者: 山田育矢 先生<small>（<a href="https://www.ousia.jp/ja/">株式会社Studio Ousia</a>, Co-founder, Chief Scientist）</small></div>
+  <div class="keynote_headning">概要</div>
+  <p></p>
+  <!-- 
+  <div class="keynote_headning">略歴</div>
+  <p>（株）Studio Ousiaを創業し，自然言語処理の技術開発に従事．2000年に学生ベンチャー企業（株）ニューロンを起業し，2005年に売却．その後，2007年に（株）Studio Ousiaを設立．2016年に慶應義塾大学にて博士（学術）を取得．理化学研究所AIP客員研究員．Kaggle Master．</p>
+  -->
+</div>
+
+## プログラム
+
+[プログラムの詳細はこちらから](program)
+
+<table id="program_table">
+  <tbody>
+    <tr>
+      <td class="program_time">9:30-9:35</td>
+      <td>オープニング</td>
+    </tr>
+    <tr>
+      <td class="program_time">9:35-10:30</td>
+      <td><a href="program/#日本語データセットの構築(1)">日本語データセットの構築(1) [一般発表2件]</a></td>
+    </tr>
+    <tr>
+      <td class="program_time">10:40-11:35</td>
+      <td><a href="program/#日本語データセットの構築(2)">日本語データセットの構築(2) [一般発表2件・LT1件]</a></td>
+    </tr>
+    <tr>
+      <td class="program_time">11:45-13:00</td>
+      <td><a href="program/#多言語・多分野の言語資源の構築">多言語・多分野の言語資源の構築 [一般発表3件・LT1件]</a></td>
+    </tr>
+    <tr>
+      <td class="program_time">13:00-14:20</td>
+      <td>昼休憩</td>
+    </tr>
+    <tr>
+      <td class="program_time">14:20-15:20</td>
+      <td><a href="program/#招待講演">招待講演（山田育矢先生）</a></td>
+    </tr>
+    <tr>
+      <td class="program_time">15:30-17:00</td>
+      <td><a href="program/#事前学習モデルの構築と利用">事前学習モデルの構築と利用 [一般発表3件・LT1件]</a></td>
+    </tr>
+    <tr>
+      <td class="program_time">17:10-17:45</td>
+      <td><a href="program/#パネル(総合討論)・クロージング">パネル(総合討論)・クロージング</a></td>
+    </tr>
+  </tbody>
+</table>
+
+## NLP2023 Slack チャンネル
+NLP2023参加者限定Slackワークスペースで、当ワークショップのチャンネルが用意される予定です。  
+詳細が判明次第、参加方法等をこちらでお知らせします。
+
+<!-- div class="slack-channel-container">
+<span class="slack-channel">
+#32-workshop2-日本語における評価用データセットの構築と利用性の向上
+</span>
+</div -->
+
 ## スケジュール
-- 2022/12/01 (木)	Webサイト公開
-- 2022/12/21 (水)	一般発表・ライトニングトーク申込受付開始
-- 2023/01/10 (火)	NLP2023事前参加登録受付開始
-- 2023/02/13 (月)	一般発表申込締切・NLP2023事前参加登録締切
-- 2023/02/17 (金)	プログラム公開
+- <span class="expired">2022/12/01 (木)	Webサイト公開</span>
+- <span class="expired">2022/12/21 (水)	一般発表・ライトニングトーク申込受付開始</span>
+- <span class="expired">2023/01/10 (火)	NLP2023事前参加登録受付開始</span>
+- <span class="expired">2023/02/13 (月)	一般発表申込締切・NLP2023事前参加登録締切</span>
+- 2023/02/21 (火)	プログラム公開
 - 2023/02/28 (火)	ライトニングトーク申込締切
 - 2023/03/10 (金) 正午まで	NLP2023直前参加登録締切
 - 2023/03/13 (月)	発表スライド提出期限
@@ -66,8 +155,8 @@ description: "言語処理学会第29回年次大会 併設ワークショップ
 
 ### 発表種別
 #### 一般発表
-- 発表15〜35分 + 質疑5分
-- 発表申込時に発表者・タイトル・概要(400字程度)を提出いただきます
+- <span class="expired">発表15〜35分 + 質疑5分</span>
+- <span class="expired">発表申込時に発表者・タイトル・概要(400字程度)を提出いただきます</span>
 
 #### ライトニングトーク
 - 発表5分 + セッションの最後にまとめて質疑を行います
@@ -77,7 +166,7 @@ description: "言語処理学会第29回年次大会 併設ワークショップ
 
 ### 発表申込期間
 #### 一般発表
-- 2022年12月21日(水)〜2023年2月13日(月)
+- <span class="expired">2022年12月21日(水)〜2023年2月13日(月)</span>
 
 #### ライトニングトーク
 - 2022年12月21日(水)〜2023年2月28日(火)

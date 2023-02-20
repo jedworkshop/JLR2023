@@ -114,19 +114,19 @@ main h3:hover .heading-anchor {
     text-align: center;
 }
 .sponsor-item {
-    margin-bottom: 1.5em;
+    margin-bottom: 0.1em;
 }
 .sponsor-item-blank {
     width: 260px;
     height: 1px;
 }
 #sponsors .sponsor-item .logo {
-    width: 246px;
-    height: 246px;
+    width: 360px;
+    height: 140px;
     background-color: #fff;
     border: 1px solid rgba(31,31, 31, 0.25);
     border-radius: 12px;
-    padding: 5px;
+    padding: 12px;
     margin: 7px;
     margin-top: 0px;
     text-align: center;
