@@ -19,7 +19,6 @@ description: "言語処理学会第29回年次大会 併設ワークショップ
 　　　国立国語研究所共同研究プロジェクト「実証的な理論・対照言語学の推進」<br/>
 　　　科学研究費補助金・基盤研究(A)「計算知と人知の融合による汎用言語理解基盤の構築」
 </td></tr></table>
-
 <div id="sponsors">
   <div class="sponsor-item">
     <a href="https://www.ousia.jp/ja/" target="_blank" rel="noreferrer">
@@ -38,7 +37,7 @@ description: "言語処理学会第29回年次大会 併設ワークショップ
 </div>
 
 ## What's new
-2023/02/21 ワークショッププログラムを公開しました．
+2023/02/21 [ワークショッププログラム](program)を公開しました．
 
 ## 趣旨
 自然言語処理における各種タスクのモデルを訓練、評価、分析するためには、注釈付きコーパスや事前学習済みモデルなどの言語資源が必要不可欠である。
@@ -52,15 +51,15 @@ description: "言語処理学会第29回年次大会 併設ワークショップ
 
 <div id="keynote">
   <div id="keynote_speaker">講演者: 山田育矢 先生<small>（<a href="https://www.ousia.jp/ja/">株式会社Studio Ousia</a>, Co-founder, Chief Scientist）</small></div>
+  <!-- 
   <div class="keynote_headning">概要</div>
   <p></p>
-  <!-- 
   <div class="keynote_headning">略歴</div>
   <p>（株）Studio Ousiaを創業し，自然言語処理の技術開発に従事．2000年に学生ベンチャー企業（株）ニューロンを起業し，2005年に売却．その後，2007年に（株）Studio Ousiaを設立．2016年に慶應義塾大学にて博士（学術）を取得．理化学研究所AIP客員研究員．Kaggle Master．</p>
   -->
 </div>
 
-## プログラム
+## タイムテーブル
 
 [プログラムの詳細はこちらから](program)
 
