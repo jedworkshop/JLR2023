@@ -49,14 +49,13 @@ description: "言語処理学会第29回年次大会 併設ワークショップ
 本ワークショップでは、日本語における言語資源の構築手法そのものに加えて、言語資源の公開方式、利用性を高めるための著作権・ライセンス設定、タスクの複合化など、普及および応用を容易にするための研究について集
 中的に議論する。これによって、日本語言語資源の公開の流れを加速し、日本語自然言語処理のさらなる発展および生産性向上につなげていきたい。
 
-## 招待講演
+## 招待講演：知識拡張型言語モデルLUKE
 
 <div id="keynote">
   <div id="keynote_speaker">講演者: 山田育矢 先生<small>（<a href="https://www.ousia.jp/ja/">株式会社Studio Ousia</a>, Co-founder, Chief Scientist）</small></div>
-  <!-- 
   <div class="keynote_headning">概要</div>
-  <p></p>
-  <div class="keynote_headning">略歴</div>
+  <p>LUKEは、単語とエンティティを扱う知識拡張型言語モデルで、エンティティに関する知識が重要となるダウンストリームタスクを良い性能で解くことができる。このモデルはHuggingface Transformersに組み込まれており、簡単に使うことができる。本講演では、LUKE (EMNLP 2020) 、多言語版LUKE (ACL 2022)、LUKEのエンティティリンキングへの応用 (NAACL 2022, EMNLP Findings 2022)、日本語版LUKEまでの取り組みを紹介する。</p>
+  <!-- 
   <p>（株）Studio Ousiaを創業し，自然言語処理の技術開発に従事．2000年に学生ベンチャー企業（株）ニューロンを起業し，2005年に売却．その後，2007年に（株）Studio Ousiaを設立．2016年に慶應義塾大学にて博士（学術）を取得．理化学研究所AIP客員研究員．Kaggle Master．</p>
   -->
 </div>
