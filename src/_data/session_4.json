@@ -14,7 +14,7 @@
     },
     {
       "id": "d-2",
-      "type": "lt",
+      "type": "normal",
       "time": "16:00-16:20",
       "title": "日本語BigBirdの構築",
       "presenter": "近藤瑞希, 王昊, 井手竜也, 伊藤俊太朗, Ritvik Choudhary, 栗原健太郎, 河原大輔 (早大)",
